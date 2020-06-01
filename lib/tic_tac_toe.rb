@@ -62,7 +62,8 @@ class TicTacToe
     player_input = gets.chomp 
     index = input_to_index(player_input)
     if valid_move?(index)
-      
+      token = current_player
+    
   end
   
   
